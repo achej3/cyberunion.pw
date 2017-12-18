@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>CyberUnion Home</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>       
+       
+   
+    
+    <style>
+		.navbar 
+		{
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			color: black; 
+			position: fixed;
+			top: 0; 
+			right: 0;
+			width: 100%; 
+			 z-index:3;
+			border-bottom: 2px;
+			border-color: red;
+			border-style: solid;
+			border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			
+		}
+
+
+
+		html {
+
+			background-color: black;
+		}
+
+		h1   {
+			color: blue;
+			font-family:calibri;
+			text-align: center;
+		}
+		
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #504C4d;
+		}
+
+	
+		li a {
+			display: block;
+			color: red;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			color: red;
+			text-decoration: underline;
+		}
+
+		.active  a:hover {
+			background-color: skyblue;
+			color: red;
+		}
+
+
+		body {
+			font-family: arial;
+			color: black; 
+			font-style: bold;
+			background-color: black;
+
+
+		}
+
+		.square {
+			color: #33333;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";   
+			background-image: url(https://lh3.google.com/u/0/d/1jOeRKsDWgYjmzI0lzSx7idTSHBxN_LjG=w1920-h983-iv1);
+			background-position: center;
+			background-size: cover;
+		    background-repeat: no-repeat;
+			position: absolute;
+    	    margin: auto;
+        	top: 200px;
+  			right: 0;
+  			bottom: 250px;
+  			left: 0;
+ 	 		width: 100%;
+ 		 	height: 1050px;
+			z-index:2;
+		}
+
+		.title{
+		  	position: relative;
+            top: 50%;
+            transform: translate(-5%, -50%);
+            font-size: 25px;
+            background-color: #7f7f7f;
+            border-radius: 30px;
+            padding: 30px;
+            font-family: Helvetica;
+            opacity: 1;
+             margin: 0 auto;
+			text-align: center;
+			vertical-align: text-bottom;
+			align-content: center;
+			text-align: center;
+			width: 440px;
+		}
+		
+		.content1{
+			background-color:black;
+			width: 200px;
+			height: auto;
+			top: 980px;
+			bottom: auto;
+			left: 0;
+			right: 900px;
+			position: relative;
+			width: 50%; 
+			z-index:1;
+			color: white;
+			font-size: 30px;
+			padding-top: 10px;
+			padding-left: 350px;
+			padding-right:350px;
+			padding-bottom: 10px;
+			border-width: 2px;
+			border-color: red;
+			border-style: solid;
+			width: auto; 
+			margin-right: -8px;
+			margin-left: -8px;
+			border-right: 0px;
+			border-left: 0px;
+			border-bottom: 0px;
+			border-top: 0px;
+		}
+		
+		.content2{
+			background-color: white;
+			width: 200px;
+			height: 500px;
+			top: 1000px;
+			bottom: auto;
+			left: 0;
+			right: 900px;
+			position: relative;
+			width: 50%; 
+			z-index:1;
+			color: black;
+			font-size: 30px;
+			padding-top: 10px;
+			padding-left: 350px;
+			padding-right:350px;
+			border-width: 2px;
+			border-color: red;
+			border-style: solid;
+			width: auto; 
+			margin-right: -8px;
+			margin-left: -8px;
+			border-right: 0px;
+			border-left: 0px;	 
+			border-bottom: 0px;
+			border-top: 0px;
+		}
+
+
+
+		
+		.footer {
+   			background-color: black;
+			height: 80px;
+			left: 0;
+			right: 0px;
+			position: relative;
+			z-index:1;
+			color: white;
+			font-size: 20px;
+			padding-left: 350px;
+			padding-right:350px;
+			border-width: 2px;
+			border-color: red;
+			border-style: solid;
+			width: auto; 
+			border-right: 5px;
+			border-left: 5px;
+			border-bottom: 5px;
+			text-align: center;
+			line-height: 50px;
+			border-top: 0px;
+			margin: 0 auto;
+			display: block;
+			position: absolute;
+			top: 1700px;
+			bottom: 0;
+
+
+        }
+a{
+
+	color: black;
+}
+		 a:hover{
+
+	color: white;
+}
+
+
+   </style>
+    </head>
+<body>
+
+<div class="navbar">
+<ul id="nav">
+  <li id="nav1"><a style= "color: white; float: left;" ><img src="https://user-images.githubusercontent.com/13223016/33439633-c8eb8316-d5a2-11e7-8aeb-0a6758530a2a.png" alt="CyberUnion Logo" height="60px"></a></li>
+  <li id="nav1"><a style= "color: white; float: right; font-size: 30px;" href="./FAQ.html">FAQ</a></li>
+  <li id="nav1"><a style= "color: white; float: right; font-size: 30px;" href="./support.html">Support</a></li>
+  <li id="nav1"><a style= "color: white; float: right; font-size: 30px;" href="./compete.html">Compete</a></li>
+  <li id="nav1"><a style= "color: white; float: right; font-size: 30px;" href="./index.html">Home</a></li>
+</ul>
+</div>
+
+
+<div class="square">
+<br>
+	
+<h4 class="title" ><img src="https://user-images.githubusercontent.com/13223016/33439633-c8eb8316-d5a2-11e7-8aeb-0a6758530a2a.png" alt="CyberUnion Logo" height="100px" opacity= "1"></h4>
+</div>
+
+
+<div class="content1">
+	<p>CyberUnion is a place for kids to hack and win scholarships from hacking organizations. Hacking is a very important part of today’s world. There isn’t enough hackers in the world and cybersecurity is only getting  stronger. CyberUnion aims to foster excitement about hacking in our nation’s youth. In CyberUnion competitions, competitors will learn about hacking large corporations and find exploits of their own.</p>
+</div>
+	
+<div class="content2">
+	<p>CyberUnion is proudly supported by our sponsors:
+
+  <li>Russian Federation</li>
+  <li>Tomiyasu-Samsung Inc.</li>
+  <li>OurMine</li>
+  <li>Korean State Hacking Co.</li>
+  <li>Flat Earth Society</li>
+  <li>OurMine</li>
+  <li>DeepBlue Exploit Administration</li>
+ 
+
+</p>
+</div>
+
+
+	
+	<div class="footer">
+ <strong><a href="./policy.html"><p style="background-color: black; color: white;">Copyright © 2017 The CyberUnion Group</p></a>
+ </strong> 
+<a href="https://www.linkedin.com/in/bill-tomiyasu-397a6914"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2151/512/18_Media_social_website_in-128.png" width="45px" height="45px"> </a>
+<a href="https://www.instagram.com/billtomiyasu/"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2151/512/2_Media_social_website_instagram-128.png" width="45px" height="45px"> </a>
+<a href="https://www.paypal.me/chejerla"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2151/512/10_Media_social_website_paypal-128.png" width="45px" height="45px"> </a>
+<a href="https://www.youtube.com/watch?v=NOLVYhz7uKY"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2151/512/11_Media_social_website_youtube-128.png" width="45px" height="45px"> </a>
+</div>
+
+
+</body>
+</html>
